@@ -1,0 +1,49 @@
+#bgChangeBtn {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+
+  
+  border-radius: 10px;
+
+  place-self: center;
+  background-color: rgba(6, 6, 6, 0);
+  color:rgb(6, 6, 6) ;
+
+}
+
+#bgChangeBtn:hover{
+    background-color: rgb(26, 25, 25);
+    color:rgb(246, 240, 240) ;
+    transition: color 1s;
+}
+
+#centerTextForm {
+  width: 700px;
+  height: 100px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  background-color: rgb(26, 25, 25);
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgb(246, 240, 240);
+}
+
+div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+

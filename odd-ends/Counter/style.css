@@ -1,0 +1,63 @@
+body{
+
+    display:grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    place-self: center;
+
+}
+
+#counterMain{
+
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    place-self: center;
+
+
+}
+
+#CountingNow{
+margin-top: -50px;
+    font-size: 70px;
+
+text-align: center;
+}
+
+
+
+#CounterName{
+margin-top: -70px;
+    text-align: center;
+
+    font-size: 100px;
+}
+
+.btns{
+
+    text-align: center;
+    height: 40px;
+
+}
+
+#increase{
+    margin-left: 7px;
+    width: 100px;
+    height: 100%;
+    border-radius: 7px;
+}
+#decrease{
+    margin-left: 7px;
+    height: 100%;
+    width: 100px;
+    border-radius: 7px;
+}
+#reset{
+    margin-left: 7px;
+    width :70px;
+    height: 100%;
+    border-radius: 7px;
+}
