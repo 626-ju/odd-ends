@@ -1,0 +1,55 @@
+body{
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+h1{ 
+    transform: translateY(50px);
+    text-align: center;
+}
+
+#characterImage{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border : 5px solid black;
+    text-align: center;
+}
+
+
+main{
+    transform: translateY(-50px);
+    
+    text-align: center;
+    border: 10px solid wheat;
+    background-color: aquamarine;
+    width :500px;
+    height :350px;
+}
+
+
+h3{
+    transform : translateY(30px);
+    width:100%;
+    height :60px;
+}
+
+div{
+    width: 100%;
+    height: 20%;
+}
+div button{
+    margin: 100px;
+margin-top : 30px;
+}
+
+#randomBtn{
+    transform : translateY(-30px);
+}
+
+
+
+/*translate? sition? 써보기*/
