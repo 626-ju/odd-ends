@@ -31,8 +31,8 @@ const 떡잎마을방범대 = [짱구, 철수, 훈이, 유리, 맹구];
 
 ///////////////////////////////////////////////////////////
 
-const charaterName = document.querySelector("main h2");
-const introduceText = document.querySelector("main h3");
+const charaterName = document.querySelector("#characterName");
+const introduceText = document.querySelector("#introduceText");
 const charaterImage = document.querySelector("main img");
 
 let savedOrder = localStorage.getItem("order");
