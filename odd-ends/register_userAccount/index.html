@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="loginForm">
+      <h1>Welcome</h1>
+
+
+      <div class="loginInput">
+        <span id="loginID">ID</span>
+        <input id="loginIdInput" type="text" required placeholder="UserID" />
+
+        <div id="idExistCheck"></div>
+
+        <span id="loginPW">password</span>
+        <input
+          id="loginPwInput"
+          type="text"
+          required
+          placeholder="UserPassword"
+        />
+
+        <div id="pwExistCheck"></div>
+
+        <button class="loginBtn" type="submit">Login</button>
+
+        <button class="registBtn">regist now</button>
+      </div>
+
+
+
+      <div class="nowUserInfo hidden">
+        <span id="name"></span>
+        <span id="birth"></span>
+      </div>
+
+
+
+
+
+    </form>
+
+    <form class="registForm hidden">
+      <button id="exitRegistForm">x</button>
+
+      <span id="name"
+        >Name :
+        <input id="nameInput" type="text" required placeholder="철수" />
+      </span>
+
+      <span id="birth"
+        >Birth :
+        <input id="birthInput" type="text" required placeholder="960626"
+      /></span>
+
+      <span id="id"
+        >ID :
+        <input id="idInput" type="text" required placeholder="성주짱짱123" />
+        <span id="duplicationCheck"></span
+      ></span>
+
+      <span id="pw"
+        >Password :
+        <input id="pwInput" type="text" required placeholder="성주최고123!"
+      /></span>
+
+      <button type="sbumit">regist</button>
+    </form>
+
+    <div class="registSuccess hidden">
+      <h1>Welcome</h1>
+      <h4>Go back to Login page and login Plz</h4>
+    </div>
+
+    <script defer src="script/regist.js"></script>
+    <script defer src="script/login.js"></script>
+  </body>
+</html>
