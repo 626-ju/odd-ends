@@ -22,6 +22,13 @@
     display:none;
 }
 
+
 #duplicationCheck{
+    color : red;
+}
+#idExistCheck{
+    color : red;
+}
+#pwExistCheck{
     color : red;
 }

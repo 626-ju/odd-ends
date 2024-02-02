@@ -13,6 +13,13 @@ exitBtn.addEventListener("click", exitRegistForm);
 
 
 
+
+
+
+
+
+
+
 function saveUserInfo(event) {
   event.preventDefault();
 
@@ -43,7 +50,12 @@ const userInfo_useClass = new USERINFO(
 
   duplicationCheck();
   saveLocalStorage(userInfoObj);
- alert("Welcome!")
+
+
+  ////////////////////나중에 웰컴말고 다른 페이지 띄우는걸로 바꿀 수 없을까? css손본 후에 하자
+  ///다른 페이지 띄운 거에서 버튼 누르면 location.reload통해서 새로고침하면 되니까.
+
+  alert("Welcome!")
  location.reload();
 }
 
